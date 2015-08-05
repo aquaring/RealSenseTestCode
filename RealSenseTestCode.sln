@@ -5,22 +5,42 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealSenseColorCameraWPF", "RealSenseColorCameraWPF\RealSenseColorCameraWPF.csproj", "{F1D334B4-BCE4-4565-97AD-80E393E01894}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealSenseAllCameraWPF", "RealSenseAllCameraWPF\RealSenseAllCameraWPF.csproj", "{F58407D3-9661-4F86-ADFF-7164ACE778ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Debug|x64.ActiveCfg = Debug|x64
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Debug|x64.Build.0 = Debug|x64
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Release|x64.ActiveCfg = Release|x64
 		{F1D334B4-BCE4-4565-97AD-80E393E01894}.Release|x64.Build.0 = Release|x64
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Debug|x64.ActiveCfg = Debug|x64
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Debug|x64.Build.0 = Debug|x64
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|x64.ActiveCfg = Release|x64
+		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
