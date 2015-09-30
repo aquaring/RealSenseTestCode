@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealSenseColorCameraWPF", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealSenseAllCameraWPF", "RealSenseAllCameraWPF\RealSenseAllCameraWPF.csproj", "{F58407D3-9661-4F86-ADFF-7164ACE778ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealSenseHandTracking", "RealSenseHandTracking\RealSenseHandTracking.csproj", "{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|x64.ActiveCfg = Release|x64
 		{F58407D3-9661-4F86-ADFF-7164ACE778ED}.Release|x64.Build.0 = Release|x64
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Debug|x64.ActiveCfg = Debug|x64
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Debug|x64.Build.0 = Debug|x64
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Release|x64.ActiveCfg = Release|x64
+		{AF4CFE0E-E410-41B6-9075-BD04CA5F613B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
