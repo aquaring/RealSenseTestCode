@@ -1,0 +1,27 @@
+﻿<Window x:Name="MainWin" x:Class="RealSenseHandTracking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="1140" Width="1234" Closing="MainWin_Closing" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="MainGrid">
+        <Image x:Name="ColorCameraImage" HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="1138" Margin="28,10,0,0"/>
+        <Image x:Name="HandSegmentImage" HorizontalAlignment="Left" Height="362" Margin="684,685,0,0" VerticalAlignment="Top" Width="482"/>
+        <Image x:Name="HandJointtImage" HorizontalAlignment="Left" Height="361" Margin="684,684,0,0" VerticalAlignment="Top" Width="482"/>
+        <Image x:Name="clickGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/click.png"/>
+        <Image x:Name="fistGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/fist.png"/>
+        <Image x:Name="full_pinchGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/full_pinch.png"/>
+        <Image x:Name="spreadfingersGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/spreadfingers.png"/>
+        <Image x:Name="swipe_downGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/swipe_down.png"/>
+        <Image x:Name="swipe_leftGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/swipe_left.png"/>
+        <Image x:Name="swipe_rightGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/swipe_down.png"/>
+        <Image x:Name="swipe_upGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/swipe_up.png"/>
+        <Image x:Name="tapGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/tap.png"/>
+        <Image x:Name="thumb_downGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/thumb_down.png"/>
+        <Image x:Name="thumb_upGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/thumb_up.png"/>
+        <Image x:Name="two_fingers_pinch_openGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/two_fingers_pinch_open.png"/>
+        <Image x:Name="v_signGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/v_sign.png"/>
+        <Image x:Name="waveGestureImage" HorizontalAlignment="Left" Height="310" Margin="28,701,0,0" VerticalAlignment="Top" Width="321" Source="images/wave.png"/>
+
+        <Label x:Name="GestureLabel" Content="Gesture" HorizontalAlignment="Left" Margin="60,685,0,0" VerticalAlignment="Top" Width="691" FontSize="20"/>
+        <Label Content="Gesture" HorizontalAlignment="Left" Margin="28,650,0,0" VerticalAlignment="Top" Width="417" FontSize="20"/>
+    </Grid>
+</Window>
